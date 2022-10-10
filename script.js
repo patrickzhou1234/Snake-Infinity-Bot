@@ -10,7 +10,7 @@ window.onkeydown = function(event) {
                 ctrlKey: false,
                 metaKey: false
             }));
-        }, 1000);
+        }, 1500);
         setTimeout(function() {
             setInterval(function() {
                 document.dispatchEvent(new KeyboardEvent("keydown", {
@@ -22,7 +22,7 @@ window.onkeydown = function(event) {
                     ctrlKey: false,
                     metaKey: false
                 }));
-            }, 1000);
+            }, 1500);
         }, 50);
     }
 }
